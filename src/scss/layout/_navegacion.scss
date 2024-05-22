@@ -26,6 +26,10 @@
             &:last-of-type{
                 margin-right: 0;
             }
+
+            &:hover{
+                color:$verde;
+            }
         }
         
     }

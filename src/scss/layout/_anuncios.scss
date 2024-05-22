@@ -1,0 +1,16 @@
+@include tablet {
+    .contenedor-anuncios{
+        @include grid(2, 3rem);
+    }
+}
+
+
+.anuncio{
+    background-color: lighten($gris, 5);
+    border: 1px solid darken($gris, 5);
+
+
+    .contenido-anuncio{
+        padding: 2rem;
+    }
+}
