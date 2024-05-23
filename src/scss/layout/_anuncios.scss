@@ -1,6 +1,6 @@
 @include tablet {
     .contenedor-anuncios{
-        @include grid(2, 3rem);
+        @include grid(3, 3rem);
     }
 }
 
@@ -12,5 +12,35 @@
 
     .contenido-anuncio{
         padding: 2rem;
+    }
+
+    h3, p{
+        margin: 0;
+    }
+    .precio {
+        color: $verde;
+        font-weight: bold;
+        font-size: 3rem;
+    }
+}
+
+.iconos-caracteristicas{
+    display: flex;
+    list-style:none;
+    padding: 0;
+
+    li{
+        flex: 1;
+        display: flex;
+
+        img{
+            flex: 0 0 5rem;
+            margin-right: 1rem;
+
+        }
+
+        p{
+            font-weight: $black;
+        }
     }
 }
